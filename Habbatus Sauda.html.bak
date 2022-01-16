@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>Habbatus Sauda</title>
+
+  <!-- slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan|Poppins:400,600,700&display=swap" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+</head>
+
+<body class="sub_page">
+
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg custom_nav-container ">
+          <a class="navbar-brand" href="index.html" style="background-color:#8b0000;">
+            <span>
+              <img src="images/thesunnah02.svg" alt="thesunnah" style="center">
+            </span>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+  </div>
+
+
+  <!-- contact section -->
+
+  <section class="contact_section layout_padding">
+    <div class="container ">
+      <div class="heading_container justify-content-center">
+        <h2 style="background-color:#8b0000;padding:10px;color:white">
+          Habbatus Sauda 
+        </h2>
+      </div>
+
+    </div>
+    <div Class="article">
+	  <h1 style="text-align:center"> What is Habbatus Sauda <h1>
+	  <p style="font-size:18px;text-align:center;font-family:cursive"> Habbatus Sauda or nigella sativa is the scientific name for black cumin seed, which comes from fennel flowers native to Asia. Archaeological evidence shows nigella sativa was used for both culinary purposes—especially in Indian and Middle Eastern cuisines—as well as medicinally. In fact, the medicinal benefits of habbatus sauda were recorded as early as the year 980 by the Persian Muslim physician, Avicenna, who stated that ingesting the seeds of the habbatus sauda plant was a treatment for dyspnea—shortness of breath.Today, habbatus sauda seeds are used as an alternative healing method for a variety of ailments, including headaches, arthritis, congestion, digestive problems and more.</p>
+	  <br><h1 style="text-align:center"> Watch the video about <b>Pil baraka</b> ! <h1><br>
+	     <center>
+		      <iframe width="420" height="315"
+                 src="https://www.youtube.com/embed/tgbNymZ7vqY">
+              </iframe>
+		 </center>
+    </div>
+  </section>
+
+  <!-- end contact section -->
+
+
+  <!-- info section -->
+  <section class="info_section layout_padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="info_logo">
+            <h5>
+              <img src="images/thesunnah02.svg" alt="thesunnah"  width="200" height="50">
+            </h5>
+            <p>
+              Start you first step in following prophet Muhammad way of life now even how small that step is. Its better than not start at all. 
+            </p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="info_links pl-lg-5">
+            <h5>
+              Useful Link
+            </h5>
+            <ul>
+              <li class="active">
+                <a href="index.html">
+                  Home
+                </a>
+              </li>
+              <li>
+                <a href="about.html">
+                  About
+                </a>
+              </li>
+              <li>
+                <a href="gallery.html">
+                  Product
+                </a>
+              </li>
+              <li>
+                <a href="contact.html">
+                  Contact Us
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="info_contact">
+            <h5>
+              Contact
+            </h5>
+            <div>
+              <img src="images/location-white.png" alt="">
+              <p>
+                The Sunnah, Sri Medan, 83400 Batu Pahat, Johor
+              </p>
+            </div>
+            <div>
+              <img src="images/telephone-white.png" alt="">
+              <p>
+                +60 117753427
+              </p>
+            </div>
+            <div>
+              <img src="images/envelope-white.png" alt="">
+              <p>
+                thesunnah2015@mail.com
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end info_section -->
+
+  <!-- footer section -->
+  <footer class="container-fluid footer_section">
+    <p>
+      &copy; <span id="displayYear"></span> All Rights Reserved By
+      <a href="https://html.design/">Free Html Templates</a>
+    </p>
+  </footer>
+  <!-- footer section -->
+
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="js/custom.js"></script>
+
+</body>
+
+</html>
