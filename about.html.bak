@@ -26,6 +26,72 @@
   <link href="css/style.css" rel="stylesheet" />
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
+  <style>
+
+.tablink {
+border:none
+}
+
+.tablink:hover {
+   background-color: #A9A9A9;
+}
+.tabcontent {
+   display: none;
+   padding: 50px;
+   text-align:center;
+
+}
+#profile {
+   background-color:white;
+}
+#time {
+   background-color:white;
+   color: black;
+ 
+}
+#chart {
+   background-color:white;
+
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  text-align: center;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+h1 {
+ font-size: 18px;
+ }
+ 
+button:hover, a:hover {
+  opacity: 0.7;
+  
+
+</style>
 </head>
 
 <body class="sub_page">
@@ -69,35 +135,270 @@
     <!-- end header section -->
   </div>
 
-  <!-- about section -->
-  <h1 style="text-align:center;margin-top:1em;font-family:'Courier New'">Who behind this company?</h1>
-  <section class="about_section" >
-    <div class="container" style="background-color:#D3D3D3;padding:5em">
-      <div class="row">
-        <div class="col-md-6 col-xl-7">
-          <div class="img-box">
-		   <figure>
-            <img style="margin-left:5em" src="images/man-in-suit.jpg" alt="company CEO" height="300px"/>
-			 <figcaption style="text-indent:5em">Company CEO, Suhairi Mohamed </figcaption>
-			</figure> 
-          </div>
-        </div>
-        <div class="col-md-5 col-xl-5">
-          <div class="detail_box">
-            <div class="heading_container justify-content-end">
-              <h2 style="background-color:#A9A9A9;padding:10px">
-			  
-              </h2>
-            </div>
-            <p>
-              Our company comited to introduce the wonderful sunnah of prophet Muhammad, not just by selling sunnah product but guided people to the way of life of prophet Muhammad 
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- end about section -->
+ <!--about section-->
+<div style="padding-left:15px;padding-bottom:15px">
+<button class="tablink" onclick="demo('profile', this, 'gray')" id="defaultOpen">Profile</button>
+<button class="tablink" onclick="demo('time', this, 'gray')">Time</button>
+<button class="tablink" onclick="demo('chart', this, 'gray')">Chart</button>
+</div>
+
+<div id="profile" class="tabcontent">
+
+ <!--Title content-->
+   <center>
+   <table width="auto" border="0">
+    <tr>
+	<th>
+   <h1 style="background-color:#8b0000;padding:5px;color:white;border-radius: 25px">Member's Profile</h1>
+   </th>
+   </tr>
+   </table>
+   </center><br>
+   
+   
+ <center>
+<table width="auto" border="0">
+  <tr>
+    <td><div class="card"><br>
+  <h1 style="font-size:25px">Muhammad Suhairi Bin Saparun</h1>
+  <p class="title">ID:2020621696</p>
+  <p>UiTM | BA242</p>
+  <a href="https://wa.me/601164243927" target="_blank"><button>Contact</button>
+  </div></td>
+    <td width="100px">&nbsp;</td>
+    <td><div class="card"><br>
+  <!--<img src="images/suhairi.jpg" alt="suhairi" style="width:100%"><br>-->
+  <h1 style="font-size:25px">Nur Aqilah Izzati Binti Norazman</h1>
+  <p class="title">ID:20206853418</p>
+  <p>UiTM | BA242</p>
+  <a href="https://wa.me/60177910701" target="_blank"><button>Contact</button>
+  </div></td>
+  </tr>
+</table>
+</center>
+
+</div>
+<div id="time" class="tabcontent">
+   
+   <!--Title content-->
+   <center>
+   <table width="auto" border="0">
+    <tr>
+	<th>
+   <h1 style="background-color:#8b0000;padding:5px;color:white;border-radius: 25px">Gantt Chart</h1>
+   </th>
+   </tr>
+   </table>
+   </center><br>
+   
+   <center>
+   <table width="auto" border="1">
+  <tr style="background-color:gray">
+    <th scope="col">Member</th>
+    <th scope="col">Anticipated Schedule</th>
+    <th scope="col">Actual Schedule</th>
+  </tr>
+  <tr>
+    <td>Suhairi</td>
+    <td style="background-color:cyan">&nbsp;</td>
+    <td style="background-color:black">&nbsp;</td>
+  </tr>
+  <tr>
+    <td>Aqilah</td>
+    <td style="background-color:green">&nbsp;</td>
+    <td style="background-color:black">&nbsp;</td>
+  </tr>
+</table> <br>
+
+   <table width="auto" border="1">
+  <tr style="background-color:gray">
+    <th scope="col">Task</th>
+    <th scope="col">Week7</th>
+    <th scope="col">Week8</th>
+    <th scope="col">Week9</th>
+    <th scope="col">Week10</th>
+    <th scope="col">week11</th>
+    <th scope="col">week12</th>
+    <th scope="col">week13</th>
+    <th scope="col">week14</th>
+  </tr>
+  <tr>
+    <th scope="row">Gantt Chart</th>
+    <td style="background-color:green">&nbsp;</td>
+    <td style="background-color:green">&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <th scope="row">&nbsp;</th>
+    <td>&nbsp;</td>
+    <td style="background-color:black">&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <th scope="row">Planning</th>
+    <td style="background-color:cyan">&nbsp;</td>
+    <td style="background-color:cyan">&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <th scope="row">&nbsp;</th>
+    <td style="background-color:black">&nbsp;</td>
+    <td style="background-color:black">&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <th scope="row">Research and gathering information</th>
+    <td style="background-color:cyan">&nbsp;</td>
+    <td style="background-color:green">&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <th scope="row">&nbsp;</th>
+    <td style="background-color:black">&nbsp;</td>
+    <td style="background-color:black">&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <th scope="row">Content</th>
+    <td  style="background-color:cyan">&nbsp;</td>
+    <td style="background-color:cyan">&nbsp;</td>
+    <td style="background-color:cyan">&nbsp;</td>
+    <td style="background-color:cyan">&nbsp;</td>
+    <td style="background-color:cyan">&nbsp;</td>
+    <td style="background-color:cyan">&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <th scope="row">&nbsp;</th>
+    <td style="background-color:black">&nbsp;</td>
+    <td style="background-color:black">&nbsp;</td>
+    <td style="background-color:black">&nbsp;</td>
+    <td style="background-color:black">&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <th scope="row">Designing templete</th>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td style="background-color:green">&nbsp;</td>
+    <td style="background-color:green">&nbsp;</td>
+    <td style="background-color:green">&nbsp;</td>
+    <td style="background-color:green">&nbsp;</td>
+    <td style="background-color:green">&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <th scope="row">&nbsp;</th>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td style="background-color:black">&nbsp;</td>
+    <td style="background-color:black">&nbsp;</td>
+    <td style="background-color:black">&nbsp;</td>
+    <td style="background-color:black">&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <th scope="row">Testing</th>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td style="background-color:cyan">&nbsp;</td>
+    <td style="background-color:cyan">&nbsp;</td>
+  </tr>
+  <tr>
+    <th scope="row">&nbsp;</th>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td style="background-color:black">&nbsp;</td>
+    <td style="background-color:black">&nbsp;</td>
+  </tr>
+  <tr>
+    <th scope="row">Delivery and Report</th>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td style="background-color:green">&nbsp;</td>
+    <td style="background-color:green">&nbsp;</td>
+  </tr>
+  <tr>
+    <th scope="row">&nbsp;</th>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td style="background-color:black">&nbsp;</td>
+    <td style="background-color:black">&nbsp;</td>
+  </tr>
+</table>
+</center>
+</div>
+
+<div id="chart" class="tabcontent">
+    
+	<!--title content-->
+   <center>
+   <table width="auto" border="0">
+    <tr>
+	<th>
+   <h1 style="background-color:#8b0000;padding:5px;color:white;border-radius: 25px">Organization Structure</h1>
+   </th>
+   </tr>
+   </table>
+   
+   </center>
+   <center>
+   <img src="images/organization.png">
+   </center>
+   
+</div>
+
 
   <!-- info section -->
   <section class="info_section layout_padding">
@@ -185,6 +486,24 @@
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
   <script type="text/javascript" src="js/custom.js"></script>
+  <script>
+  function demo(match,e,color) {
+   var i, content, links;
+   content = document.getElementsByClassName("tabcontent");
+   var len1 = content.length;
+   for (i = 0; i < len1; i++) {
+      content[i].style.display = "none";
+   }
+   links = document.getElementsByClassName("tablink");
+   var len2 = links.length;
+   for (i = 0; i < len2; i++) {
+      links[i].style.backgroundColor = "";
+   }
+   document.getElementById(match).style.display = "block";
+   e.style.backgroundColor = color;
+}
+document.getElementById("defaultOpen").click();
+</script>
 
 </body>
 
